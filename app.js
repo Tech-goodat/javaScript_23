@@ -1,9 +1,4 @@
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//adding array elements using the push() method
+const fruits=["Bananas", "Oranges", "Tomatoes"];
+fruits.push("Mangoes");
 
-let text = "<ul>";
-fruits.forEach(myFunction);
-text += "</ul>";
-
-function myFunction(value) {
-  text += "<li>" + value + "</li>";
-}
