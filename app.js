@@ -1,3 +1,3 @@
-//removing the last element of an array
-const fruits=["oranges", "bananas", "tomatoes"];
-fruits.pop();
+//removing the first element of an arrayy using the shift()function
+const fruits=["oranges", "mangoes", "tomatoes"];
+fruits.shift();
